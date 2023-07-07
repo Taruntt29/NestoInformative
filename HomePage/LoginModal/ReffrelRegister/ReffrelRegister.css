@@ -1,0 +1,56 @@
+.reffrel-register-heading {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+}
+
+.reffrel-register {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.reffrel-register-input-label {
+    font-size: 16px;
+    margin-bottom: .2rem;
+    color: var(--silver-surfer);
+    font-weight: 400;
+}
+
+.reffrel-register-input-div {
+    text-align: left;
+}
+
+.reffrel-register-input {
+    border: 2px solid #E8ECF4;
+    background: #F8F8F8;
+    width: 100%;
+    padding: 14px 4px 14px 21px;
+    border-radius: 8px !important;
+    margin-top: 4px !important;
+}
+
+.reffrel-register-input:active,
+.reffrel-register-input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.reffrel-register-input::placeholder {
+    color: var(--cold-black-color) !important;
+}
+
+.reffrel-register-input:not(:first-child) {
+    margin-top: 30px;
+}
+
+.reffrel-register-btn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 15px;
+    background: var(--primary-color);
+    color: var(--color-white) !important;
+    border-radius: 8px;
+}

@@ -1,0 +1,44 @@
+.home-page-about {
+    background: url(../../../../public/assets/informative/blocks.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 6% 0 0 0;
+    background-position: top center;
+}
+
+.about-us-read-more {
+    width: fit-content;
+    display: block;
+    margin-top: 30px;
+}
+
+.about-us-read-more:hover {
+    background: var(--primary-color);
+    color: var(--color-white);
+}
+
+.about-us-read-more:focus,
+.about-us-read-more::after {
+    background: var(--primary-color);
+    color: var(--color-white);
+}
+
+.scan{
+    width: 52px;
+}
+
+
+/* ====================== 
+========== Media Query */
+@media(max-width: 992px) {
+    .ps-5.about-content {
+        padding: 2rem !important;
+    }
+    .sections-sub-heading{
+        font-size: 24px;
+    }
+    .sections-heading{
+        font-size: 15px !important;
+    }
+}
+/* Other Coming from (../AboutUs/AboutUsMain.css */

@@ -1,0 +1,22 @@
+.successful-login {
+  text-align: center;
+  padding: 0 0 15px;
+}
+.successful-login-img {
+  width: 15%;
+  margin-bottom: 5px;
+}
+.successful-login-heading {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  display: block;
+}
+.successful-login-sub-heading {
+  font-size: 1rem;
+  color: var(--silver-surfer);
+  width: 80%;
+  line-height: 1.6;
+  display: block;
+  margin: auto;
+}

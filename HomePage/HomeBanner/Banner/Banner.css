@@ -1,0 +1,137 @@
+.banner {
+  background: url(../../../../../public/assets/informative/circle-2.png) top left no-repeat, url(../../../../../public/assets/informative/circle-2.png) bottom center no-repeat, var(--lite-skyblue);
+  position: relative;
+  background-size: 15%, 15%;
+}
+
+.banner-col-5 {
+  display: flex;
+  align-items: center;
+  padding-left: 6rem;
+  margin-left: auto;
+}
+
+.banner-h4 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.banner-hr {
+  width: 45%;
+  color: var(--gray-color);
+  border: 1px solid var(--gray-color);
+}
+
+.banner-p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--silver-surfer);
+  margin-bottom: 24px;
+}
+
+/* mobile-col */
+.mobile-col {
+  display: none;
+}
+
+
+/* Loader Type line */
+.line {
+  display: inline-block;
+  width: 15px;
+  height: 5px;
+  margin: 0 2px;
+  border-radius: 15px;
+  background-color: #278fd9;
+}
+
+.load .line:nth-last-child(1) {
+  animation: loading 1.5s 1s infinite;
+}
+
+.load .line:nth-last-child(2) {
+  animation: loading 1.5s 0.5s infinite;
+}
+
+.load .line:nth-last-child(3) {
+  animation: loading 1.5s 0s infinite;
+}
+
+.load {
+  animation-delay: 0.5s;
+  position: relative;
+  top: -10px;
+}
+
+@keyframes loading {
+  0% {
+    width: 15px;
+  }
+
+  50% {
+    width: 35px;
+  }
+
+  100% {
+    width: 15px;
+  }
+}
+
+.move-arrow {
+  /* position: relative; */
+  /* right: -4px; */
+  animation: armove 1.85s infinite linear;
+}
+
+@keyframes armove {
+  0% {
+    /* right: 0px; */
+    opacity: 0;
+    transform: translateX(0px);
+  }
+
+  50% {
+    opacity: .5;
+    transform: translateX(5px);
+  }
+
+  100% {
+    /* right: 4px; */
+    opacity: 1;
+    transform: translateX(10px);
+  }
+
+}
+
+/* ====================== 
+========== Media Queri */
+@media(max-width: 1195px) {
+  .desktop-col {
+    display: none;
+  }
+
+  .text-slider {
+    display: none;
+  }
+
+  .mobile-col {
+    display: block;
+  }
+}
+
+@media(max-width: 992px) {
+  .banner-col-5 {
+    padding: 1rem 2rem 3rem 2.3rem;
+  }
+
+  .banner-h4 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .banner-row {
+    flex-direction: column-reverse;
+  }
+}
