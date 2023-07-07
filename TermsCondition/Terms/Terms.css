@@ -1,0 +1,32 @@
+.t-c_span2 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    line-height: 25px;
+    color: var(--silver-surfer);
+}
+.t-c_box {
+    padding-left: 20px;
+}
+
+.t-c_span_dot {
+    width: 4px;
+}
+
+.t-c_li {
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    line-height: 25px;
+    color: var(--silver-surfer);
+}
+
+.t-c_span1 {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    display: block;
+    line-height: 25px;
+    color: var(--silver-surfer);
+}
