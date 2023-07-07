@@ -1,0 +1,76 @@
+.partners {
+    background: url(../../../../public/assets/informative/circle-2.png) top left no-repeat, url(../../../../public/assets/informative/circle-2.png) bottom center no-repeat, var(--lite-skyblue);
+    position: relative;
+    background-size: 15%, 25%;
+    margin-bottom: 8%;
+}
+
+.partners-row {
+    display: flex;
+    align-items: center;
+}
+
+.partners-col-1 {
+    padding: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners-col-2 {
+    background: url(../../../../public/assets/informative/partnerbuilding.png);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.partners-h4 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.partners-p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--silver-surfer);
+    margin-bottom: 24px;
+}
+
+.partners-link {
+    text-decoration: none;
+    background: var(--primary-color);
+    color: var(--color-white);
+    padding: 9px 45px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+.partners-link:hover {
+    background: var(--primary-color);
+    color: var(--color-white);
+}
+
+/* ====================== 
+========== Media Query */
+@media(max-width: 992px) {
+    .partners-h4{
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .partner-card-heading{
+        font-size: 18px !important;
+    }
+
+    .partner-card-span{
+        font-size: 14px !important;
+    }
+
+    .sections-heading{
+        font-size: 15px !important;
+    }
+}
